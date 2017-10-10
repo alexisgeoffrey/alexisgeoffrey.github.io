@@ -1,9 +1,47 @@
 h1 {
     font-family: 'Playfair Display', serif;
     font-size: 90px;
-    font-weight: 900;
-    text-align: center;
+	color: white;
+	margin-bottom: 0cm;
 }
+
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	color: white;
+	margin-top: 0cm;
+}
+
 p {
-    color: blue;
+    position: relative;
+	left: 270px;
+	color: white;
+	font-family: 'Inconsolata', serif;
+	font-size: 16px;
+	//text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.footer {
+	position: fixed;
+	left: 340px;
+	bottom: 0;
+}
+body {
+	background-image: url("img/background3.jpg");
+	background-size: 1707px 975px;
+    background-color: black;
+	overflow: hidden;
+}
+
+a:link {
+	color: rgb(0, 128, 255);
+	//color: rgb(94, 170, 245);
+	text-decoration: none;
+}
+
+a:visited {
+	color: rgb(0, 128, 255);
+	//color: rgb(94, 170, 245);
+	text-decoration: none;
+}
 }
