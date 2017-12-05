@@ -1,43 +1,49 @@
-h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 90px;
+h1,h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 90px;
 	color: white;
+	text-align: right;
+}
+
+h1 {
 	margin-bottom: 0cm;
 }
 
 h2 {
-	font-family: 'Playfair Display', serif;
 	font-size: 20px;
-	color: white;
 	margin-top: 0cm;
 }
 
 p {
-    position: relative;
-	left: 270px;
+	//position: relative;
+	//left: 300px;
+	//text-align: right;
 	color: white;
 	font-family: 'Inconsolata', monospace;
 	font-size: 16px;
 }
 
-.footer {
+#footer {
 	position: fixed;
-	left: 340px;
+	//left: 400px;
 	bottom: 0;
 }
 body {
-	background-image: url("img/background3.jpg");
-	background-size: 1707px 975px;
-    background-color: black;
+	background-image: url("img/background6.jpg");
+	//background-size: 1707px 975px;
+	//background-size: 2000px 1500px;
+	background-size: 1920px 1440px;
+	background-color: black;
 	overflow: hidden;
+	-ms-overflow-style: none;
 }
 
-a:link {
-	color: rgb(0, 128, 255);
-	text-decoration: none;
-}
-
-a:visited {
-	color: rgb(0, 128, 255);
-	text-decoration: none;
+a:link,a:visited {
+	//color: rgb(0, 128, 255);
+	//color: rgb(0, 0, 255);
+	//color: rgb(0, 200, 255);
+	//color: lime;
+	color: white;
+	background-color: blue;
+	//text-decoration: none;
 }
