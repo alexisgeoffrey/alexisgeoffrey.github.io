@@ -21,6 +21,7 @@ p {
 	color: white;
 	font-family: 'Inconsolata', monospace;
 	font-size: 16px;
+	line-height: 150%;
 }
 
 #footer {
